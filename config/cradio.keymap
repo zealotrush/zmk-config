@@ -85,10 +85,10 @@
 
         right_layer {
             bindings = <
-&kp ESCAPE  &kp HOME  &kp UP_ARROW  &kp END    &kp PAGE_UP      &kp MINUS    &kp N7        &kp N8        &kp N9        &kp PERCENT
-&kp DEL     &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN    &kp PERIOD   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BACKSPACE
-&trans      &trans    &trans        &trans     &tog 5           &kp N0       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
-                                    &trans     &kp CAPSLOCK     &bootloader  &trans
+&kp N1   &kp N2  &kp N3  &kp N4  &kp N5     &kp N6       &kp N7     &kp N8     &kp N9     &kp N0
+&kp DEL  &trans  &trans  &trans  &trans     &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &kp BACKSPACE
+&trans   &trans  &trans  &trans  &tog 5     &kp HOME     &kp PG_DN  &kp PG_UP  &kp END    &kp CAPS
+                         &trans  &kp ESC    &bootloader  &trans
             >;
         };
 
