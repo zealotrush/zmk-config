@@ -68,7 +68,7 @@
         default_layer {
             bindings = <
 &kp Q  &kp W       &kp E        &kp R        &kp T         &kp Y      &kp U        &kp I        &kp O       &kp P
-&kp A  &ht LALT S  &ht LCTRL D  &ht LGUI F   &kp G         &kp H      &ht RGUI J   &ht RCTRL K  &ht RALT L  &kp BSPC
+&kp A  &mt LALT S  &mt LCTRL D  &mt LGUI F   &kp G         &kp H      &mt RGUI J   &mt RCTRL K  &mt RALT L  &kp BSPC
 &kp Z  &kp X       &kp C        &kp V        &kp B         &kp N      &kp M        &kp COMMA    &kp DOT     &kp ENTER
                                 &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
             >;
@@ -77,7 +77,7 @@
         windows_layer {
             bindings = <
 &kp Q  &kp W       &kp E       &kp R        &kp T         &kp Y      &kp U        &kp I       &kp O       &kp P
-&kp A  &ht LALT S  &ht LGUI D  &ht LCTRL F  &kp G         &kp H      &ht RCTRL J  &ht RGUI K  &ht RALT L  &kp BSPC
+&kp A  &mt LALT S  &mt LGUI D  &mt LCTRL F  &kp G         &kp H      &mt RCTRL J  &mt RGUI K  &mt RALT L  &kp BSPC
 &kp Z  &kp X       &kp C       &kp V        &kp B         &kp N      &kp M        &kp COMMA   &kp DOT     &kp ENTER
                                &lt LEF TAB  &kp LSHIFT    &kp SPACE  &lt RIG TAB
             >;
